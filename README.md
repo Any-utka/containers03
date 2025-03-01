@@ -16,3 +16,13 @@ apt update
 apt install apache2 -y
 service apache2 start
 ```
+- ```apt update``` - обновляет список доступных пакетов и их версий из репозиториев.
+- ```apt install apache2 -y``` - устанавливает веб-сервер Apache (apache2), а утилита ```-y``` автоматически подтверждает установку.
+- ```service apache2 start``` -   запускает сервер Apache.
+4. Открываем браузер и вводим в адресной строке *http://localhost:8000*, после этого видим следующее:
+  ![]()
+5. Выполняем следующие команды:
+```shell
+ls -l /var/www/html/
+echo '<h1>Hello, World!</h1>' > /var/www/html/index.html
+```  
