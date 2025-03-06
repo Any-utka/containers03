@@ -7,7 +7,7 @@
 1. Создаем репозиторий ```containers04``` и клонируем его на компьютер. Для этого используем команду ```git clone https://github.com/Any-utka/containers04.git``` и переходим в нашу склонированную папку.
 2. Открываем терминал в папке containers04 и выполняем команду:
 ```shell
-docker run -ti -p 8000:80 --name containers03 ubuntu bash
+docker run -ti -p 8000:80 --name containers04 ubuntu bash
 ```
 ![Img-1](https://imgur.com/mWplbf4.png)
 Эта команда служит для запуска и созданпия нового контейнера на основе образа Ubuntu с интерактивным терминалом.   
